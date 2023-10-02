@@ -83,11 +83,8 @@ body {
 }
 
 section {
-    /* max-height: 1000px; */
     z-index: 1;
     padding: 20px 30px;
-    /* max-width: min(575px, 100% - 40px); */
-    /* width: 100%; */
     display: flex;
     flex-flow: column;
     gap: 8px;
@@ -172,21 +169,6 @@ button:hover {
 
 .section-right__menu-button_blue:hover {
     background-color: #2096D6;
-}
-
-.divider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    width: 100%;
-    font-size: 12px;
-}
-
-.divider--line {
-    width: 100px;
-    height: 1px;
-    background-color: #E5E5E5;
 }
 
 .section-right__form {
@@ -386,17 +368,6 @@ button:hover {
         flex: 1 0;
         overflow: hidden;
     }
-/* 
-    aside::before {
-        width: 20vw;
-        min-width: 140px;
-    }
-
-    aside img {
-        width: 100%;
-        height: unset;
-        max-height: unset;
-    } */
 
     section {
         height: unset;
@@ -508,7 +479,7 @@ button:hover {
         margin: 0;
     }
 
-    button[type=submit] {
+    .section-right__btn_submit {
         width: 100%;
     }
 }
